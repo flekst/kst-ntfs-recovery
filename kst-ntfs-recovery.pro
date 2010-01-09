@@ -9,10 +9,12 @@ HEADERS = src/diskreader.h \
  src/common.h \
  src/mftfinder.h \
  src/mftrecord.h \
- src/ntfsbootrecord.h
+ src/ntfsbootrecord.h \
+ src/clasterreader.h
 SOURCES = src/main.cpp \
  src/diskreader.cpp \
  src/mftfinder.cpp \
  src/mftrecord.cpp \
  src/common.cpp \
- src/ntfsbootrecord.cpp
+ src/ntfsbootrecord.cpp \
+ src/clasterreader.cpp
